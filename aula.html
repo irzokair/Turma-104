@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - Tags e Elementos HTML (Parte 2)</title>
+</head>
+<body style="font-family: Arial, Verdana; margin: 30px;">
+
+    <!-- Título da Página -->
+    <h1>Fundamentos do Desenvolvimento Web</h1>
+    <h2>Tags e Elementos HTML - Parte 2</h2>
+    <hr>
+
+    <!-- ========================== -->
+    <!-- LISTA NÃO ORDENADA -->
+    <h3>1. Lista Não Ordenada (&lt;ul&gt;)</h3>
+    <p>A lista não ordenada é criada com a tag <code>&lt;ul&gt;</code> e cada item é representado pela tag <code>&lt;li&gt;</code>. 
+       O atributo <code>type</code> permite personalizar o marcador (disc, circle ou square).</p>
+
+    <ul type="circle">
+        <li>Home</li>
+        <li>Quem somos</li>
+        <li>Contato</li>
+    </ul>
+
+    <br>
+
+    <ul type="square">
+        <li>Home</li>
+        <li>Quem somos</li>
+        <li>Contato</li>
+    </ul>
+
+    <br>
+
+    <ul type="disc">
+        <li>Home</li>
+        <li>Quem somos</li>
+        <li>Contato</li>
+    </ul>
+
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- LISTA ORDENADA -->
+    <h3>2. Lista Ordenada (&lt;ol&gt;)</h3>
+    <p>A lista ordenada usa a tag <code>&lt;ol&gt;</code>, e o atributo <code>type</code> define o tipo de numeração (1, A, a, I, i).</p>
+
+    <ol type="1">
+        <li>Introdução</li>
+        <li>Desenvolvimento</li>
+        <li>Conclusão</li>
+    </ol>
+
+    <ol type="A">
+        <li>Introdução</li>
+        <li>Desenvolvimento</li>
+        <li>Conclusão</li>
+    </ol>
+
+    <ol type="a">
+        <li>Introdução</li>
+        <li>Desenvolvimento</li>
+        <li>Conclusão</li>
+    </ol>
+
+    <ol type="I">
+        <li>Introdução</li>
+        <li>Desenvolvimento</li>
+        <li>Conclusão</li>
+    </ol>
+
+    <ol type="i">
+        <li>Introdução</li>
+        <li>Desenvolvimento</li>
+        <li>Conclusão</li>
+    </ol>
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- ESTILO EM PARÁGRAFO -->
+    <h3>3. Estilo em Parágrafo (&lt;p&gt; com style)</h3>
+    <p>Podemos aplicar estilos diretamente no HTML com o atributo <code>style</code>, alterando cor, fonte e tamanho do texto:</p>
+
+    <p style="color: blue; font-size: 18px; font-family: Arial, Verdana; background-color: #f0f8ff; padding: 10px; border-radius: 8px;">
+        Este é um parágrafo estilizado com cor azul, fonte Arial e fundo azul-claro.
+    </p>
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- INSERÇÃO DE IMAGEM -->
+    <h3>4. Inserindo Imagens (&lt;img&gt;)</h3>
+    <p>Utiliza-se a tag <code>&lt;img&gt;</code> com os atributos <code>src</code>, <code>width</code>, <code>height</code> e <code>alt</code>:</p>
+
+    <img src="image.png" width="70%" height="auto" alt="Imagem de exemplo representando um retângulo de 400x250 pixels">
+
+    <p><small>O texto alternativo (atributo <code>alt</code>) é mostrado se a imagem não carregar ou em leitores de tela.</small></p>
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- LINKS INTERNOS -->
+    <h3>5. Links Internos (&lt;a href&gt;)</h3>
+    <p>Links internos conectam páginas dentro do mesmo site.</p>
+
+    <a href="aula.html">Aula de HTML</a><br>
+    <a href="contatos.html">Lista de Contatos</a>
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- LINKS EXTERNOS -->
+    <h3>6. Links Externos (&lt;a href&gt;)</h3>
+    <p>Links externos levam a outros sites. O atributo <code>target="_blank"</code> abre o link em nova aba.</p>
+
+    <a href="http://www.google.com">Visite o Google (mesma aba)</a><br>
+    <a href="https://www.google.com" target="_blank">Visite o Google (nova aba)</a>
+
+    <hr>
+
+    <!-- ========================== -->
+    <!-- VARIAÇÕES DE LINKS -->
+    <h3>7. Variações de Links (mailto e tel)</h3>
+    <p>Outros tipos de links especiais:</p>
+
+    <a href="mailto:exemplo@email.com">Envie um e-mail</a><br>
+    <a href="tel:+5511999999999">Ligue para nós</a>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <footer style="text-align: center; margin-top: 40px; color: gray;">
+        <p>Desenvolvido por <strong>Prof. Anselmo</strong> — Aula: Tags e Elementos HTML (Parte 2)</p>
+    </footer>
+
+</body>
+</html>
